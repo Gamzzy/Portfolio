@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h3 {
+    color: blue;
+}
+.container{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color:white;
+    border-radius: 15px;
+}
+ .form_container {
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ /*style for form elements */
+ .username, .email, .pword, .confirm_password {
+    padding: 5px;
+    margin: 2px;
+    width: 70%;
+    height: 5vh;
+    border-radius: 5px;
+    border:1px solid;
+ }
+ .sign-up {
+    width: 45%;
+    margin: 5px;
+    padding: 3px;
+    background-color: rgba(109, 149, 224, 0.6);
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+ }
